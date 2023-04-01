@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+</head>
+
+
+<style>
+    nav{
+        background-color: rgb(235, 230, 225);
+    }
+
+    h1{
+        color:rgb(243, 240, 240);
+        background-color: rgb(175, 16, 135);
+    }
+
+    h2{
+        color:rgb(250, 250, 250);
+        background-color: rgb(82, 170, 141);
+    }
+</style>
+
+<body>
+    
+    <header>
+        <hr>
+        <center>
+            <h1> "APRENDIENDO HTML - MEDIA QUERIES" </h1>
+        </center>
+        <hr>
+    </header>
+
+    <nav>
+
+        <ul id="Inicio">
+            <li> <Strong>Inicio</Strong> </li>
+            <li><a href="#mediaqueries"> Media Queries </a></li>
+
+            <ul>
+                <li><a href="#sintaxis">Sintaxis</a></li>
+                <li><a href="#operlog">Operadores logicos</a></li>
+                <li><a href="#tiposoper">Tipos de operadores</a></li>
+            </ul>
+
+            <li><a href="#mockup"> Mockup </a></li>
+            <li><a href="#acercade">Acerca de </a></li>
+        </ul>
+
+    </nav>
+
+    <section>
+        <hr>
+        <center>
+            <h2>Objetivo del sitio web</h2>
+        </center>
+        <p>
+            La finalidad de esta pagina web, es brindar informacion acerca de las media queries y algunos componentes
+            que la integran.
+        </p>
+    </section>
+
+
+    <section id="mediaqueries">
+        <hr>
+        <center>
+            <h2> ¿Que son las media requieres? </h1>
+        </center>
+        <hr>
+        <p>
+            Podemos decir que en desarrollo web, las media queries son módulos CSS3, los cuales permiten la adaptación
+            en representación de contenidos web, en cuanto a las resoluciones de pantalla y equipos digítales, por
+            ejemplo: un Smartphone frente a pantallas de alta definición o la presencia de características de
+            sensibilidad como el braille.
+        </p>
+
+        <p>
+            Por otro lado, las reglas media queries “también denominadas MQ" a veces son un tipo de reglas que permiten
+            crear un bloque de código que solo se procesará en los dispositivos que cumplan con los criterios
+            específicos, tales como;
+        </p>
+
+        <p>
+        <ul>
+            <li>@media Screen and [*condicion*]</li>
+            <li>@media Screen and not [*condicion*]</li>
+        </ul>
+        </p>
+
+        <center><img src="Imagenes/mediaqueries.png" alt=""></center>
+
+        <a href="#Inicio">Clic Inicio</a>
+    </section>
+
+    <section id="sintaxis">
+        <hr>
+        <center>
+            <h2> Sintaxis </h1>
+        </center>
+        <hr>
+        <p>
+            Las media queries consisten en un tipo de medio adicional y una o más expresiones de características de
+            medios, por lo que varias de estas consultas se pueden combinar utilizando operadores lógicos y tienen una
+            excepción que no distingue entre mayúsculas y minúsculas;
+        </p>
+        <p>
+        <ul>
+            <li>Las medias queries se utilizan para aplicar estilos condicionales con las reglas at-@media y @import de
+                CSS.</li>
+            <li>Indicar medios específicos en los elementos Link y otros elementos HTML.</li>
+            <li>Testear y monitorizar los estados de los medios usando los métodos de JavaScript</li>
+        </ul>
+        </p>
+
+        <a href="#Inicio">Clic Inicio</a>
+    </section>
+
+    <section id="operlog">
+        <hr>
+        <center>
+            <h2> Operadores Logicos </h1>
+        </center>
+        <hr>
+        <p>
+            Los operadores lógicos son empleados para redactar queries utilizando cadenas como not, and y only. Además,
+            se puede combinar múltiples queries en una lista separada, en este caso existe una excepción la cual es; si
+            en cualquiera de los queries de la lista se presenta una condición verdadero en la hoja de estilo asociada
+            se aplicará y por lo cual equivale a una operación lógica "or"
+        </p>
+        <center><img src="Imagenes/Operadores.jpg" alt=""></center>
+
+        <a href="#Inicio">Clic Inicio</a>
+    </section>
+
+    <section id="tiposoper">
+        <hr>
+        <center>
+            <h2> Tipos De Operadores Logicos </h1>
+        </center>
+        <hr>
+        <p>
+            Los tipos de operadores logicos son los siguientes:
+        </p>
+        <p>
+           <ul><strong>Not:</strong> Es un operador lógico, el cual se aplica en todo el query y este puede retomar de forma verdadero o falsa, por otro lado, el operador not puede ser usado para negar un query individual y aceptado solo para un query completo.</ul>
+           <ul><strong>And:</strong>El operador and es asociado para cumplir múltiples funciones en el desarrollo web y en multimedia, un query básico en este caso requiere de un medio específico para cumplir su función.</ul>
+           <ul><strong>Only: </strong>El operador only previene que navegadores antiguos que no soporten queries con funciones complejas apliquen los estilos asignados, los queries son insensibles a las mayúsculas y minúsculas, por otro lado, la media queries que contenga tipos de medio desconocidos siempre lo tomará falso.</ul>
+        </p>
+        
+    </section>
+
+    <section id="mockup">
+
+        <a href="#Inicio">Clic Inicio</a>
+        <hr>
+        <center>
+            <h2> Mockup </h1>
+        </center>
+        <hr>
+        <center><img src="Imagenes/Diagrama.drawio.png" alt=""></center>
+
+    </section>
+
+    <section id="acercade">
+        <hr>
+        <center>
+            <h2> Acerca de </h1>
+        </center>
+        <hr>
+        <a href="#Inicio">Clic Inicio</a>
+        <p>
+         Camilo De Jesus Martinez Carrillo <br><br>
+         <strong>Curso:</strong> Diseño de sitios web <br><br>
+         <strong>Numero de grupo:</strong> 301122_1391 <br><br>
+         <strong>Codigo:</strong> #04 <br><br>
+
+         <p>&copy; 2023 Derechos de Autor</p>
+        </p>
+
+    </section>
+    
+</body>
+</html>
