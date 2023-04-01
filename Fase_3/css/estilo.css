@@ -4,10 +4,7 @@
 }
 
 h1{
-   text-align:center ; 
-   background-color: #000000 ;
-   color: white;
-   padding: 20px;
+   
    
 }
 
@@ -33,4 +30,11 @@ nav a{
 nav li :hover{
 background-color: #000000;
 padding: 10px;
+}
+
+.Menu{
+    text-align:center ; 
+    background-color: #000000 ;
+    color: white;
+    padding: 20px;
 }
