@@ -1,54 +1,157 @@
+/* CSS GENERAL */
+
 * {
     padding: 0%;
     margin: 0%;
 }
 
 body {
+    background-color: #F6F1F1;
     font-family: sans-serif;
-    font-size: 15px;
-    line-height: 1.9;
-}
-.contenedor{
-    width: 90%;
-    max-width: 1000px;
-    margin: 20px auto;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, auto);
-}
-.contenedor >div,
-.contenedor .header,
-.contenedor .contenido,
-.contenedor .sidebar,
-.contenedor .piepagina
-{
-    background:rgb(219, 201, 188);
-    padding: 20px;
-    border-radius: 4px;
+    font-size: 13px;
+    line-height: 2;
 }
 
-.contenedor .header{
-    background: #19A7CE;
+.contenedor {
+    width: 100%;
+    max-width: 1400px;
+
+}
+
+.contenedor>div,
+.contenedor .header,
+.contenedor .barra-nav,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .piepagina {
+
+    padding: 11px;
+    border-radius: 2px;
+}
+
+.container {
+    max-width: 14000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* CSS HEADER */
+
+.contenedor .header {
+    background: #62CDFF;
     color: black;
     grid-column-start: 1;
     grid-column-end: -1;
+    text-align: center;
 
 }
-.contenedor .contenido{
-    background: #e8eaeb;
+
+/* CSS CONTENIDO */
+
+.contenedor .contenido {
     color: black;
     grid-column-start: 2;
     grid-column-end: -1;
 }
 
-.contenedor .sidebar{
-    grid-column: 1;
+.contenido .h1{
+    text-align: center;
+}
+/* CSS ASIDE*/
+
+.contenedor .sidebar {
+    grid: column 1;
     text-align: center;
 }
 
-.contenedor .piepagina{
-    background: navy;
-    color: aqua;
-    grid-column: 1;
+.sidebar {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* CSS FOOTER */
+
+.contenedor .piepagina {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor .piepagina {
+    background: white;
+    color: black;
+    grid-column: auto;
+    text-align: center;
+}
+
+hr {
+    background-color: red;
+    padding: 1px;
+}
+
+/* CSS BARRA-NAVEGACION */
+
+.contenedor .barra-nav {
+    background-color: #F3E8FF;
+    width: auto;
+    list-style-type: none;
+    text-align: center;
+}
+
+.contenedor .barra-nav {
+    display: inline-flex;
+
+}
+
+.contenedor .nav-bar {
+    text-decoration: none;
+    padding: 5px;
+    width: 320px;
+
+}
+
+.contenedor a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-bar a:hover {
+    font-size: 15px;
+    color: black;
+    padding: 1px;
+}
+
+p {
+    width: 300px;
+}
+
+/* CSS BARRA-LATERAL */
+
+.Barralateral {
+    margin: 2px;
+    padding: 2px;
+}
+
+.Barralateral a {
+    display: block;
+    text-align: right;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.Barralateral a:hover {
+    font-size: 15px;
+    color: black;
+    padding: 1px;
+}
+
+/* CSS IMAGEN */
+img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
 }
