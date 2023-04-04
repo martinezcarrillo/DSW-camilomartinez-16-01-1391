@@ -54,6 +54,9 @@ body {
     grid-column-end: -1;
 }
 
+p{
+    margin-bottom: 40px;
+}
 /* CSS ASIDE*/
 
 .contenedor .sidebar {
@@ -123,7 +126,7 @@ hr {
 }
 
 p {
-    width: 300px;
+    width: 1000px;
 }
 
 /* CSS BARRA-LATERAL */
