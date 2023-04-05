@@ -102,7 +102,7 @@ hr {
 }
 
 .contenedor .barra-nav {
-    display: inline-flex;
+    display: flex;
 
 }
 
