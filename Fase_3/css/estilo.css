@@ -103,6 +103,13 @@ hr {
 
 }
 
+.contenedor a:hover {
+    font-size: 15px;
+    color: black;
+    padding: 1px;
+}
+
+
 p {
     width: 1000px;
 }
