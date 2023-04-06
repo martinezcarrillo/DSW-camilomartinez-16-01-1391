@@ -186,7 +186,8 @@ img {
     grid-template-rows: auto;
 }
 
-@media (min-width:500px) {
+@media (min-width:100px) {
+
     .contenedor .contenido {
         color: black;
         grid-column-start: 2;
