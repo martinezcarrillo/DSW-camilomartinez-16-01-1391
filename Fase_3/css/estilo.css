@@ -154,6 +154,7 @@ p {
 .Barralateral {
     margin: 2px;
     padding: 2px;
+    
 }
 
 .Barralateral a {
@@ -161,6 +162,7 @@ p {
     text-align: left;
     color: black;
     margin-bottom: 20px;
+    
 }
 
 .Barralateral a:hover {
@@ -184,4 +186,11 @@ img {
     grid-template-rows: auto;
 }
 
-@media (min-width:500px) {}
+@media (min-width:500px) {
+    .contenedor .contenido {
+        color: black;
+        grid-column-start: 2;
+        grid-column-end: -1;
+    }
+    
+}
