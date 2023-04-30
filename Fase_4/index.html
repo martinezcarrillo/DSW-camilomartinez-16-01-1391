@@ -38,14 +38,12 @@
 
     <div id="contenedor" class="contenedor">
         <div class="contenedor">
-            <h2>Media Queries</h2>
+            <h1>"Diseño De Sitios Web"</h1>
         </div>
-        <div class="contenido">
+        <div class="contenedor">
 
             <hr>
-            <center>
-                <h1>¿Que son las media queries?</h1>
-            </center>
+            <h1>Media Queries</h1>
             <hr>
             <h2>Definicion</h2>
             <p>
@@ -57,7 +55,78 @@
                 de
                 sensibilidad como el braille.
             </p>
+            <p>
+                Por otro lado, las reglas media queries “también denominadas MQ" a veces son un tipo de reglas
+                que permiten
+                crear un bloque de código que solo se procesará en los dispositivos que cumplan con los
+                criterios
+                específicos, tales como;
+            </p>
 
+            <p>
+            <ul>
+                <li>@media Screen and [*condicion*]</li>
+                <li>@media Screen and not [*condicion*]</li>
+            </ul>
+            </p>
+            <hr>
+
+            <h2> Sintaxis </h1>
+
+                <hr>
+                <p>
+                    Las media queries consisten en un tipo de medio adicional y una o más expresiones de características
+                    de
+                    medios, por lo que varias de estas consultas se pueden combinar utilizando operadores lógicos y
+                    tienen
+                    una
+                    excepción que no distingue entre mayúsculas y minúsculas;
+                </p>
+                <p>
+                <ul>
+                    <li>Las medias queries se utilizan para aplicar estilos condicionales con las reglas at-@media y
+                        @import
+                        de
+                        CSS.</li>
+                    <li>Indicar medios específicos en los elementos Link y otros elementos HTML.</li>
+                    <li>Testear y monitorizar los estados de los medios usando los métodos de JavaScript</li>
+                </ul>
+                </p>
+
+                <hr>
+                <h2> Operadores Logicos </h1>
+
+                    <hr>
+                    <p>
+                        Los operadores lógicos son empleados para redactar queries utilizando cadenas como not, and y
+                        only. Además,
+                        se puede combinar múltiples queries en una lista separada, en este caso existe una excepción la
+                        cual es; si
+                        en cualquiera de los queries de la lista se presenta una condición verdadero en la hoja de
+                        estilo asociada
+                        se aplicará y por lo cual equivale a una operación lógica "or"
+                    </p>
+
+                    <hr>
+
+                    <h2> Tipos De Operadores Logicos </h1>
+
+                        <hr>
+                        <p>
+                            Los tipos de operadores logicos son los siguientes:
+                        </p>
+                        <p>
+                        <ul><strong>Not:</strong> Es un operador lógico, el cual se aplica en todo el query y este puede
+                            retomar de forma verdadero o falsa, por otro lado, el operador not puede ser usado para
+                            negar un query individual y aceptado solo para un query completo.</ul>
+                        <ul><strong>And:</strong>El operador and es asociado para cumplir múltiples funciones en el
+                            desarrollo web y en multimedia, un query básico en este caso requiere de un medio específico
+                            para cumplir su función.</ul>
+                        <ul><strong>Only: </strong>El operador only previene que navegadores antiguos que no soporten
+                            queries con funciones complejas apliquen los estilos asignados, los queries son insensibles
+                            a las mayúsculas y minúsculas, por otro lado, la media queries que contenga tipos de medio
+                            desconocidos siempre lo tomará falso.</ul>
+                        </p>
 </body>
 
 </html>
