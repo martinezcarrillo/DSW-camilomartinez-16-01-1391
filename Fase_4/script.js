@@ -3,7 +3,7 @@ function procesarRespuestasFlexBox () {
     let puntos = 0;
 
     let myFrom = document.forms["formulario"];
-    let respuestasCorrectas = ["c","a","a","a","a"];
+    let respuestasCorrectas = ["a","b","c","a","a"];
 
     for (let i = 1; i <= total; i++) {
         if (myFrom["r" + i].value == null || 
