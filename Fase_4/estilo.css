@@ -5,7 +5,7 @@
 }
   
 body {
-    background: rgb(120, 99, 177);
+    background: #FF6D60;
     background-repeat: no-repeat;
     padding: 30px;
     padding-bottom: 35px;
@@ -13,9 +13,9 @@ body {
 
 #contenedor {
 
-    background-color: rgb(212, 205, 205);
+    background-color: rgb(240, 223, 234);
     color: #0f0e0e;
-    background: linear-gradient(#ddd0d08a, #ebe4e4);
+    background: linear-gradient(#A6D0DD, #A6D0DD);
     padding-left: 40px;
     padding-right: 40px;
     padding: 25px;
@@ -94,4 +94,10 @@ h2{
 footer{
     text-align: center;
     padding: 5px;
+}
+
+img{
+    width: 250px;
+    height: auto;
+    object-fit: cover;
 }
