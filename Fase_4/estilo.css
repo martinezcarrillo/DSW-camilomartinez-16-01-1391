@@ -1,6 +1,47 @@
-body{
-    background: linear-gradient(rgb(209, 97, 97), rgb(85, 26, 26));
+body {
+    background: white;
     background-repeat: no-repeat;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 30px;
+    padding-bottom: 35px;
+}
+
+#contenedor {
+
+    background-color: rgb(212, 205, 205);
+    color: #0f0e0e;
+    background: linear-gradient(#ddd0d08a, #ebe4e4);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 25px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+
+nav{
+    border-radius: 20px;
+    border-left: 20px;
+    border-style: initial;
+}
+
+.nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 850;
+    font-size: 18px;
+    padding: auto;
+}
+
+.nav-link:hover{
+    font-weight: 1000;
+    text-shadow: .8px .8px #000000;
+    color: #adf3f3;
+    background: linear-gradient(
+        to right,
+        hsl(0, 93%, 47%),
+        hsl(342, 84%, 29%)
+    );
+    border-radius: 50px;
+    scale: 1.1;
 }
