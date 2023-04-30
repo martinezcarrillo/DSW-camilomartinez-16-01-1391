@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(rgb(209, 97, 97), rgb(85, 26, 26));
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 40px;}
+
+
+#contenedor{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(#202020, #000000);
+    background-repeat: no-repeat;
+    color: #fff;
+}
