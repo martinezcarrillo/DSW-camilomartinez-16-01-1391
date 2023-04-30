@@ -13,12 +13,12 @@ body {
 
 #contenedor {
 
-    background-color: rgb(240, 223, 234);
+    background-color: rgb(239, 217, 223);
     color: #0f0e0e;
     background: linear-gradient(#A6D0DD, #A6D0DD);
-    padding-left: 40px;
-    padding-right: 40px;
-    padding: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding: 23px;
     padding-bottom: 25px;
     padding-left: 35px;
     padding-right: 35px;
