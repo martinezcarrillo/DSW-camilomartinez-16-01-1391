@@ -1,29 +1,31 @@
 body{
-    background: linear-gradient(rgb(2, 260, 246), rgb(3, 250, 260));
+    background: linear-gradient(rgb(209, 97, 97), rgb(85, 26, 26));
     background-repeat: no-repeat;
-    padding-top: 10px;
-    padding-bottom: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-
 #contenedor{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background: linear-gradient(rgb(255, 253, 253), rgb(250, 247, 247));
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(#202020, #000000);
     background-repeat: no-repeat;
-    color:black
+    color: #fff;
 }
-
 div h1{
     padding: 15px;
     text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, cursive;
-    font-size: 35px;
+    font-family: 'Alkatra', cursive;
+    font-size: 50px;
+    text-shadow: 0 0 #adf3f3, 0 1.5em #00fafa;
+    line-height: 1.5em;
     overflow: hidden;
-    color: rgb(31, 156, 27);
+    transition: 0.3s;
+    color: white;
 }
 
 div h1:hover {
@@ -62,7 +64,7 @@ form input{
     font-size: 15px;
 }
 
-.item{
+.pregunta{
     padding: 20px;
     border: solid 1px #00fafa;
     border-radius: 20px;
@@ -83,7 +85,7 @@ form input{
     font-size: 18px;
     border-radius: 50px;
     font-weight: 600;
-    box-shadow: 2px 2px 3px rgb(94, 240, 250);
+    box-shadow: 2px 2px 3px rgb(250, 94, 94);
 }
 
 .btn:hover {
